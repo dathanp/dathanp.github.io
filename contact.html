@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<!--Head with metadata-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Dathan Pompa">
+    <title> All About Tech</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+<!--Header-->
+    <div class="header">
+        <h1>All About Tech</h1>
+        <p>Contact Form</p>
+      </div>
+<!--Navbar-->
+      <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="tech.html">Tech</a>
+        <a href="news.html">News</a>
+        <a href="help.html">Help here</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact Us</a>
+      </div>
+<!--Contents of website-->
+<div class="form">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<!--Footer-->
+    <div class="footer">
+        <a href="mailto:dathanpompa@gmail.com">Contact the Webmaster</a>
+        <br>
+        &#169;2020
+    </div>
+</body>
+</html>
